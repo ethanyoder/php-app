@@ -3,7 +3,7 @@
 		<title>My PHP App</title>
 	</head>
 	<body>
-		<?php $string = "Hello World!"; 
-		echo "<p>$string</p>";	?>
+		<p>PHP System Info:</p>
+		<?php phpinfo(); ?>
 	</body>
 </html>
