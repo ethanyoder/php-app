@@ -4,9 +4,9 @@
 	</head>
 	<body>
 		<?php 	$welcomeString = "Welcome to my PHP App";
-			$php = "PHP";
+			$phpVar = "PHP";
 		      	echo "$welcomeString";
-			print "Below is the info for " + $php;
+			print "Below is the info for $phpVar";
 		      	phpinfo(); ?>
 	</body>
 </html>
