@@ -17,10 +17,10 @@
 			$boolVar = true;
 			$dormObj = new Dorm(true, 2, "Little Pine");
 			while ($boolVar) {
-				echo "String: $stringVar";
-				echo "Double: $doubleVar";
-				echo "Integer: $intVar";
-				echo "Dorm Object: Oven - $dormObj->oven, Showers - $dormObj->showers, Hall Name - $dormObj->hallName";
+				echo "String: $stringVar<br />";
+				echo "Double: $doubleVar<br />";
+				echo "Integer: $intVar<br />";
+				echo "Dorm Object: Oven - $dormObj->oven, Showers - $dormObj->showers, Hall Name - $dormObj->hallName<br />";
 			}
 		?>
 	</body>
