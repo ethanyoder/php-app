@@ -5,7 +5,7 @@
 	<body>
 		<?php 	$welcomeString = "Welcome to my PHP App";
 			$phpVar = "PHP";
-		      	echo "$welcomeString";
+		      	echo "$welcomeString<br>";
 			print "Below is the info for $phpVar";
 		      	phpinfo(); ?>
 	</body>
