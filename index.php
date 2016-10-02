@@ -16,11 +16,17 @@
 			$doubleVar = 2.2;
 			$boolVar = true;
 			$dormObj = new Dorm(true, 2, "Little Pine");
+			$ovenReadable = "Undefined";
+			if ($dormObj->oven) {
+				$ovenReadable = "Yes";
+			} else {
+				$ovenReadable = "No";
+			}
 			while ($boolVar) {
 				echo "String: $stringVar<br />";
 				echo "Double: $doubleVar<br />";
 				echo "Integer: $intVar<br />";
-				echo "Dorm Object: Oven - $dormObj->oven, Showers - $dormObj->showers, Hall Name - $dormObj->hallName<br />";
+				echo "Dorm Object: Oven - $ovenReadable, Showers - $dormObj->showers, Hall Name - $dormObj->hallName<br />";
 			}
 		?>
 	</body>
